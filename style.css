@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #FFF;
+	font-family: arial,sans-serif;
+	font-size: small;
+	overflow: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+.top-right-bar {
+	display: inline-block;
+	font-size: 1.2em;
+	float: right;
+	margin-top: 20px;
+	padding-right: 25px;
+}
+
+.top-right-button {
+	text-decoration: none;
+	color: #222;
+	font-size: 0.8em;
+}
+
+.top-right-button:hover {
+	text-decoration: underline;
+}
+
+.top-right-sign {
+	text-decoration: none;
+	color: white;
+	font-size: 0.8em;
+	background-color: #0049e6;
+	border-radius: 3px;
+	padding: 10px 15px 10px 15px;
+}
+
+.top-right-sign:hover {
+	box-shadow: 0 1px 4px #8d8d8d;
+	text-decoration: underline;
+}
+
+.searchbar {
+	position: absolute;
+	display: inline-block;
+	margin-top: 21%;
+	margin-left: 32%;
+	border-radius: 30px;
+	width: 565px;
+	border: 1px solid #d5d5d5;
+}
+
+.searchbar:hover {
+	box-shadow: 0 2px 5px #bdbdbd;
+	border: 1px solid white;
+}
+
+#search {
+	border-radius: 3px;
+	border: 0;
+	font-size: 1.3em;
+	vertical-align: middle;
+	margin: 10px 0 10px 0;
+}
+
+#logo {
+	position: absolute;
+	margin-top: 9%;
+	margin-left: 40%
+}
+
+#foto {
+	width:35%;
+}
+
+#icon {
+	width: 14px;
+	vertical-align: middle;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#sign {
+	background-color: blue;
+}
+
+.buttons {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 51%;
+}
+
+.button {
+	padding: 8px 15px 8px 15px;
+	background-color: #f1f1f1;
+	color: #717171;
+	border-radius: 3px;
+	margin: 4px;
+	font-size: 1.1em;
+	border: 1px solid #f1f1f1;
+}
+
+.button:hover {
+	border: 1px solid #b2b2b2;
+
+}
+
+#bottom-box {
+	width: 100%;
+	height: 11%;
+	bottom: 0;
+	top: 89%;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f1f1f1;
+	position: absolute;
+}
+
+#bottom-bar-1 {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 50%;
+	border-bottom: 1px solid #e4e4e4;
+	vertical-align: middle;
+}
+
+#bottom-bar-2 {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+
+#above {
+	font-size: 1.1em;
+	position: absolute;
+	left: 25px;
+	top: 27%;
+	color: #717171;
+}
+
+.beyond {
+	color: #717171;
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 25px;
+	font-size: 0.95em;
+}
+
+.right-down {
+	color: #717171;
+	font-size: 0.95em;
+	float: right;
+	margin-top: 13px;
+	margin-right: 25px;
+}
+
+.beyond:hover {
+	text-decoration: underline;
+}
+
+.right-down:hover {
+	text-decoration: underline;
+}
